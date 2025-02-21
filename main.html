@@ -9,11 +9,36 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 id="welcome" class="text-center text-light text-decoration-underline"></h1>
+    <header class="d-flex justify-content-around align-items-center  p-3">
+        <h1 id="welcome" class="text-center text-light text-decoration-underline"></h1>
+        <button class="btn btn-light" id="logout">LOGOUT</button>
+    </header>
+    <hr>
     <div class="container pt-5">
-        <div class="row" id="classes">
-            <!-- <div class="col-md-4">  
+      <h2 class="mb-4 d-none" id="MyLessons">My Lessons:</h2>
+      <div class="row d-none" id="inrolledClasses">
+        <!-- <div class="col-md-4">  
                 <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <div class="tags d-flex ">  
+                      <p class="tag">12+ lessons</p>
+                      <p class="tag">science</p>
+                      <p class="tag">9th Grade</p>
+                    </div>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a onclick="goToPayment(${i})" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div> -->
+              <hr>
+            </div>
+    </div>
+    <div class="container pt-5">
+      <h2 class="mb-4">Lessons:</h2>
+      <div class="row" id="classes">
+        <!-- <div class="col-md-4">  
+          <div class="card" style="width: 18rem;">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
                       <div class="tags d-flex ">  

@@ -11,3 +11,9 @@ body{
     background: linear-gradient(to bottom right, #d25fff, #957bfe);
 }
 
+.tag{
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    margin-right: 4px;
+    padding: 0 11px;
+}
